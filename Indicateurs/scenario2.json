@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Vous venez de démarrer un nouveau projet pour le client NomClient avec une équipe de [b]TailleEquipe personnes[/b] !\r\n\r\nLe [b]délai de réalisation négocié[/b] est fixé à T0 + DureeNegociee jours. Vous avez pu obtenir MargeDelaiIni jour(s) de marge en délai par rapport au planning prévu.\r\n\r\nLa [b]marge initiale[/b] du projet est de MargeCoutsIni %.\r\n\r\nAu démarrage du projet, le client a une [b]satisfaction[/b] de SatisfactionIni / 10 ...\r\n\r\nA vous les commandes !\r\n\r\n<< indic 50 15 5 >>\r\n\r\nVous avez à votre disposition les indicateurs : Délai prévu, Marge financière courante, et Satisfaction client\r\n\r\n[[ Ok, je gère ! |etape1]]",
+		"position": {
+			"x": 426,
+			"y": 119
+		},
+		"colorID": 0
+	},
+	{
+		"title": "etape1",
+		"tags": "",
+		"body": "Le client met du temps à valider une étape, il met 4 jour(s) de plus que prévu. Votre planning est impacté de 4 jour(s).\r\nSouhaitez-vous négocier le planning pour décaler de 4 jour(s) ?\r\n[[oui : vous avez 50% de chance que le client accepte et 50% de chance de perdre un point de satisfaction |etape2a]]\r\n[[non : vous prévenez le client que cela vous met en retard, vous tracez cela dans le compte rendu. Vous avez 50% de chance de gagner un point de satisfaction |etape2b]]",
+		"position": {
+			"x": 498,
+			"y": 396
+		},
+		"colorID": 0
+	},
+	{
+		"title": "etape2a",
+		"tags": "",
+		"body": "<< indic 50 15 4 >>\nLe client n'a pas apprécié...",
+		"position": {
+			"x": 282,
+			"y": 668
+		},
+		"colorID": 0
+	},
+	{
+		"title": "etape2b",
+		"tags": "",
+		"body": "<< indic 50 15 6 >>\nLe client a apprécié...",
+		"position": {
+			"x": 673,
+			"y": 671
+		},
+		"colorID": 0
+	}
+]
