@@ -2,40 +2,100 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Vous venez de démarrer un nouveau projet pour le client NomClient avec une équipe de [b]TailleEquipe personnes[/b] !\r\n\r\nLe [b]délai de réalisation négocié[/b] est fixé à T0 + DureeNegociee jours. Vous avez pu obtenir MargeDelaiIni jour(s) de marge en délai par rapport au planning prévu.\r\n\r\nLa [b]marge initiale[/b] du projet est de MargeCoutsIni %.\r\n\r\nAu démarrage du projet, le client a une [b]satisfaction[/b] de SatisfactionIni / 10 ...\r\n\r\nA vous les commandes !\r\n\r\n<< indic 50 15 5 >>\r\n\r\nVous avez à votre disposition les indicateurs : Délai prévu, Marge financière courante, et Satisfaction client\r\n\r\n[[ Ok, je gère ! |etape1]]",
+		"body": "Bonjour !\r\n \r\nVous venez de démarrer un nouveau projet pour le client DARTAC avec une équipe de [b]3 personnes[/b] !\r\n\r\nLe [b]délai de réalisation négocié[/b] est fixé à 50 jours. Vous avez pu obtenir 5 jour(s) de marge en délai par rapport au planning prévu.\r\n\r\nLa [b]marge initiale[/b] du projet est de 15 %.\r\n\r\nAu démarrage du projet, le client a une [b]satisfaction[/b] de 5 / 10 ...\r\n\r\nA vous les commandes !\r\n\r\n<< indic 50 15 5 >>\r\n\r\nVous avez à votre disposition les indicateurs : Délai prévu, Marge financière courante, et Satisfaction client\r\n\r\n[[ answer: |Event1]]",
 		"position": {
-			"x": 426,
-			"y": 119
+			"x": 633,
+			"y": -213
 		},
 		"colorID": 0
 	},
 	{
-		"title": "etape1",
+		"title": "Event1",
 		"tags": "",
-		"body": "Le client met du temps à valider une étape, il met 4 jour(s) de plus que prévu. Votre planning est impacté de 4 jour(s).\r\nSouhaitez-vous négocier le planning pour décaler de 4 jour(s) ?\r\n[[oui : vous avez 50% de chance que le client accepte et 50% de chance de perdre un point de satisfaction |etape2a]]\r\n[[non : vous prévenez le client que cela vous met en retard, vous tracez cela dans le compte rendu. Vous avez 50% de chance de gagner un point de satisfaction |etape2b]]",
+		"body": "[b]Evénements de la semaine 1 [/b]\r\nLe client met du temps à valider une étape, il met 4 jour(s) de plus que prévu. Votre planning est impacté de 4 jour(s).\r\nSouhaitez-vous négocier le planning pour décaler de 4 jour(s) ?\r\n[[oui : vous avez 50% de chance que le client accepte et 50% de chance de perdre un point de satisfaction |Event1a]]\r\n[[non : vous prévenez le client que cela vous met en retard, vous tracez cela dans le compte rendu. Vous avez 50% de chance de gagner un point de satisfaction |Event1b]]",
 		"position": {
-			"x": 498,
-			"y": 396
+			"x": 160,
+			"y": 397
 		},
 		"colorID": 0
 	},
 	{
-		"title": "etape2a",
+		"title": "Event1a",
 		"tags": "",
-		"body": "<< indic 50 15 4 >>\nLe client n'a pas apprécié...",
+		"body": "<< indic 50 15 4 >>\nLe client n'a pas apprécié...\n[[ xx |Event2]]",
 		"position": {
-			"x": 282,
-			"y": 668
+			"x": -16,
+			"y": 651
 		},
 		"colorID": 0
 	},
 	{
-		"title": "etape2b",
+		"title": "Event1b",
 		"tags": "",
-		"body": "<< indic 50 15 6 >>\nLe client a apprécié...",
+		"body": "<< indic 50 15 6 >>\nLe client a apprécié...\n[[ xx |Event2]]",
 		"position": {
-			"x": 673,
-			"y": 671
+			"x": 231,
+			"y": 651
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EventDispatcher",
+		"tags": "",
+		"body": "Que se passe-t-il cette semaine ?",
+		"position": {
+			"x": 566,
+			"y": 115
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Event2",
+		"tags": "",
+		"body": "[b]Evénements de la semaine 2[/b]\n\nLe client souhaite modifier le périmètre : il s'agit d'une évolution chiffrée à 3 jour(s). Que souhaitez-vous faire ?\n\n[[ Option 1 : Vous acceptez de prendre en compte l'évolution. |Event2a]]\n[[ Option 2 : Vous refusez de prendre en compte l'évolution. |Event2b]]",
+		"position": {
+			"x": 547,
+			"y": 394
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Event2a",
+		"tags": "",
+		"body": "<< indic 50 13 7 >> \nok !\n[[ xx |Event3]]",
+		"position": {
+			"x": 520,
+			"y": 649
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Event2b",
+		"tags": "",
+		"body": "<< indic 50 15 3 >> \nah...\n[[ xx |Event3]]",
+		"position": {
+			"x": 778,
+			"y": 657
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Event3",
+		"tags": "",
+		"body": "[b]Evénements de la semaine 3[/b]\n\nToute l'équipe a été impactée par un problème qui a duré 2 jour(s).\n[[ xx |Event3a]]",
+		"position": {
+			"x": 1076,
+			"y": 397
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Event3a",
+		"tags": "",
+		"body": "<< indic 60 10 3 >> \nzut...\n[[ xx |EventDispatcher]]",
+		"position": {
+			"x": 1066,
+			"y": 653
 		},
 		"colorID": 0
 	}

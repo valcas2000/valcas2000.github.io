@@ -295,7 +295,13 @@ for(var i = 0, len = gdjs.ScenePrincipaleCode.GDIndicSatisfactionTxtObjects1.len
 }
 
 
-};gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects2Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects2});gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects2Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects2});gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDChoiceText1Objects2Objects = Hashtable.newFrom({"ChoiceText1": gdjs.ScenePrincipaleCode.GDChoiceText1Objects2});gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDChoiceText2Objects2Objects = Hashtable.newFrom({"ChoiceText2": gdjs.ScenePrincipaleCode.GDChoiceText2Objects2});gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects4Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects4});gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects3Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects3});gdjs.ScenePrincipaleCode.eventsList4 = function(runtimeScene) {
+};gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects2Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects2});
+gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects2Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects2});
+gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDChoiceText1Objects2Objects = Hashtable.newFrom({"ChoiceText1": gdjs.ScenePrincipaleCode.GDChoiceText1Objects2});
+gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDChoiceText2Objects2Objects = Hashtable.newFrom({"ChoiceText2": gdjs.ScenePrincipaleCode.GDChoiceText2Objects2});
+gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects4Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects4});
+gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects3Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects3});
+gdjs.ScenePrincipaleCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -327,7 +333,9 @@ gdjs.ScenePrincipaleCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnOb
 }
 
 
-};gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects4Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects4});gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects4Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects4});gdjs.ScenePrincipaleCode.eventsList5 = function(runtimeScene) {
+};gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects4Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects4});
+gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects4Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects4});
+gdjs.ScenePrincipaleCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -421,7 +429,11 @@ gdjs.ScenePrincipaleCode.condition0IsTrue_0.val = gdjs.dialogueTree.hasSelectedO
 }
 
 
-};gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects2Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects2});gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects2Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects2});gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects2Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects2});gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects2Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects2});gdjs.ScenePrincipaleCode.eventsList7 = function(runtimeScene) {
+};gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects2Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects2});
+gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox1Objects2Objects = Hashtable.newFrom({"RedBox1": gdjs.ScenePrincipaleCode.GDRedBox1Objects2});
+gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects2Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects2});
+gdjs.ScenePrincipaleCode.mapOfGDgdjs_46ScenePrincipaleCode_46GDRedBox2Objects2Objects = Hashtable.newFrom({"RedBox2": gdjs.ScenePrincipaleCode.GDRedBox2Objects2});
+gdjs.ScenePrincipaleCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -622,6 +634,8 @@ for(var i = 0, len = gdjs.ScenePrincipaleCode.GDIndicSatisfactionTxtObjects1.len
     gdjs.ScenePrincipaleCode.GDIndicSatisfactionTxtObjects1[i].hide();
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "textScroll");
+}{runtimeScene.getVariables().get("PlannedTotalWeeks").setNumber(2);
+}{runtimeScene.getVariables().get("CurrentWeek").setNumber(0);
 }}
 
 }
